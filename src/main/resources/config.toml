@@ -1,0 +1,241 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  Velocity Nexus - Premium Server Selector Configuration
+#  Modern & Elegant GUI Design
+# ═══════════════════════════════════════════════════════════════════════════
+
+[menu]
+# Premium gradient title with modern colors
+title = "<gradient:#667eea:#764ba2:#f093fb>✦ SERVER SELECTOR ✦</gradient>"
+
+# 5 rows for a spacious, premium look
+rows = 5
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  SERVER DEFINITIONS
+# ═══════════════════════════════════════════════════════════════════════════
+# NOTE: The server name in [servers.XXXX] must match your velocity.toml exactly!
+# If your server is named "Hub" in velocity.toml, use [servers.Hub] here
+
+[servers.Hub]
+display-name = "<gradient:#ffecd2:#fcb69f>🏠 HUB</gradient>"
+description = [
+    "",
+    "<gradient:#667eea:#764ba2>  ▸ Main Network Hub</gradient>",
+    "",
+    "<gray>  Your journey starts here",
+    "<gray>  Connect with the community",
+    "",
+    "<gradient:#ffecd2:#fcb69f>  ⚡ Always Online</gradient>",
+    "<yellow>  👥 Players: <white>%players%",
+    "",
+    "<gradient:#a8edea:#fed6e3>  ❖ Click to join ❖</gradient>",
+    ""
+]
+icon = "NETHER_STAR"
+slot = 22
+enabled = true
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  DECORATIVE ITEMS (Disabled servers used as decoration)
+# ═══════════════════════════════════════════════════════════════════════════
+
+[servers.deco_top_left]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 0
+enabled = false
+
+[servers.deco_top_center_1]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 1
+enabled = false
+
+[servers.deco_top_center_2]
+display-name = "<gradient:#f093fb:#667eea>◆</gradient>"
+description = [""]
+icon = "MAGENTA_STAINED_GLASS_PANE"
+slot = 2
+enabled = false
+
+[servers.deco_top_center_3]
+display-name = "<gradient:#f093fb:#667eea>◆</gradient>"
+description = [""]
+icon = "MAGENTA_STAINED_GLASS_PANE"
+slot = 3
+enabled = false
+
+[servers.deco_top_title]
+display-name = "<gradient:#667eea:#764ba2:#f093fb>✦ PREMIUM NETWORK ✦</gradient>"
+description = [
+    "",
+    "<gradient:#ffecd2:#fcb69f>  Welcome to our server!</gradient>",
+    "",
+    "<gray>  Select a server below to begin",
+    ""
+]
+icon = "BEACON"
+slot = 4
+enabled = false
+
+[servers.deco_top_center_5]
+display-name = "<gradient:#f093fb:#667eea>◆</gradient>"
+description = [""]
+icon = "MAGENTA_STAINED_GLASS_PANE"
+slot = 5
+enabled = false
+
+[servers.deco_top_center_6]
+display-name = "<gradient:#f093fb:#667eea>◆</gradient>"
+description = [""]
+icon = "MAGENTA_STAINED_GLASS_PANE"
+slot = 6
+enabled = false
+
+[servers.deco_top_right_1]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 7
+enabled = false
+
+[servers.deco_top_right]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 8
+enabled = false
+
+# Second row decorations
+[servers.deco_left_2]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 9
+enabled = false
+
+[servers.deco_right_2]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 17
+enabled = false
+
+# Third row decorations
+[servers.deco_left_3]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 18
+enabled = false
+
+[servers.deco_right_3]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 26
+enabled = false
+
+# Fourth row decorations
+[servers.deco_left_4]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 27
+enabled = false
+
+[servers.deco_right_4]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 35
+enabled = false
+
+# Bottom row decorations
+[servers.deco_bottom_left]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 36
+enabled = false
+
+[servers.deco_bottom_2]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 37
+enabled = false
+
+[servers.deco_bottom_3]
+display-name = "<gradient:#f093fb:#667eea>◆</gradient>"
+description = [""]
+icon = "MAGENTA_STAINED_GLASS_PANE"
+slot = 38
+enabled = false
+
+[servers.deco_bottom_4]
+display-name = "<gradient:#f093fb:#667eea>◆</gradient>"
+description = [""]
+icon = "MAGENTA_STAINED_GLASS_PANE"
+slot = 39
+enabled = false
+
+[servers.deco_info]
+display-name = "<gradient:#a8edea:#fed6e3>ℹ Information</gradient>"
+description = [
+    "",
+    "<gray>  Version: <white>1.0.0",
+    "<gray>  By: <gradient:#667eea:#764ba2>AshiePleb</gradient>",
+    ""
+]
+icon = "BOOK"
+slot = 40
+enabled = false
+
+[servers.deco_bottom_6]
+display-name = "<gradient:#f093fb:#667eea>◆</gradient>"
+description = [""]
+icon = "MAGENTA_STAINED_GLASS_PANE"
+slot = 41
+enabled = false
+
+[servers.deco_bottom_7]
+display-name = "<gradient:#f093fb:#667eea>◆</gradient>"
+description = [""]
+icon = "MAGENTA_STAINED_GLASS_PANE"
+slot = 42
+enabled = false
+
+[servers.deco_bottom_8]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 43
+enabled = false
+
+[servers.deco_bottom_right]
+display-name = "<gradient:#667eea:#764ba2>◆</gradient>"
+description = [""]
+icon = "PURPLE_STAINED_GLASS_PANE"
+slot = 44
+enabled = false
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  SETTINGS
+# ═══════════════════════════════════════════════════════════════════════════
+
+[settings]
+# Update player count in real-time
+update-player-count = true
+
+# Sounds when opening menu and clicking items
+sounds-enabled = true
+
+# Replace default /server command
+override-server-command = true
+
+# Premium error messages
+offline-server-message = "<gradient:#ff6b6b:#ee5a6f>✖ This server is currently offline</gradient>"
+no-permission-message = "<gradient:#ff6b6b:#ee5a6f>✖ You don't have permission to access this server</gradient>"

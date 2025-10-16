@@ -1,0 +1,7 @@
+name: VelocityNexus-Backend
+version: '${project.version}'
+main: com.ashiepleb.velocitynexus.backend.VelocityNexusBackend
+api-version: '1.16'
+description: Backend plugin for Velocity Nexus GUI functionality
+author: AshiePleb
+website: https://github.com/AshiePleb/velocity-nexus
